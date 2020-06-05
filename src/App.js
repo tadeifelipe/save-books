@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
 
-import Tabela from './Tabela';
-import Form from './Formulario';
-import Header from './Header';
-import PopUp from './PopUp';
+import Tabela from './components/Tabela/Tabela';
+import Form from './components/Formulario/Formulario';
+import Header from './components/Header/Header';
+import PopUp from './components/PopUp/PopUp';
 
 
 class App extends Component {

@@ -1,15 +1,15 @@
 import React from 'react';
-import Header from './Header';
+import Header from '../components/Header/Header';
 
-const Livros = () => {
+const Sobre = () => {
     return (
         <>
             <Header />
             <div className="container">
-                <h1>Livros</h1>
+                <h1>Sobre</h1>
             </div>
         </>
     )
 }
 
-export default Livros;
+export default Sobre;

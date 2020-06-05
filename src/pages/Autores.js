@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import DataTable from './DataTable';
+import Header from '../components/Header/Header';
+import DataTable from '../components/DataTable/DataTable';
 
 class Autores extends Component {
     constructor(props) {
